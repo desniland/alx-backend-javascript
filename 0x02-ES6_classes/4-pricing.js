@@ -18,14 +18,14 @@ export default class Pricing {
   }
 
   /**
-   * @returns {Currency}
+   * @returns Currency
    */
   get currency() {
     return this._currency;
   }
 
   /**
-   * @param {Currency} value
+   * @param Currency value
    */
   set currency(value) {
     if (!(value instanceof Currency)) {
